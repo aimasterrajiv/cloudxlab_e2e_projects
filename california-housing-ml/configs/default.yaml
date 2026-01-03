@@ -1,0 +1,41 @@
+project:
+  name: california-housing
+  random_seed: 42
+
+data:
+  target: MedHouseVal
+  test_size: 0.2
+
+
+training:
+  cv_folds: 5
+  metric: rmse
+  optuna_trials: 25
+
+
+models:
+  linear_regression:
+    enabled: true
+    params: {}
+
+  ridge:
+    enabled: true
+    params:
+      alpha: 1.0
+
+  lasso:
+    enabled: false
+    params:
+      alpha: 0.1
+
+  random_forest:
+    enabled: true
+    params:
+      n_estimators: 200
+      max_depth: 10
+      random_state: 42
+
+  gradient_boosting:
+    enabled: false
+    params:
+      n_estimators: 150

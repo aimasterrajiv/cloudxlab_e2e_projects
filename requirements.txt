@@ -1,0 +1,34 @@
+# Data handling
+numpy
+pandas
+
+
+# Visualization
+matplotlib
+seaborn 
+
+# Time series & statistics
+statsmodels
+
+
+scikit-learn
+langchain
+torch
+transformers
+accelerate
+xgboost 
+lightgbm 
+catboost 
+optuna 
+shap 
+joblib 
+pyyaml
+
+pytest
+pyarrow
+
+
+# Core
+python-dateutil>=2.8.2
+
+
