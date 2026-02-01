@@ -1,7 +1,7 @@
-# California Housing Price Prediction (Local ML)
+# Retail stock demand forecast (Local ML)
 
 
-This project trains and compares multiple ML algorithms on the **California Housing dataset** using Python and scikit‑learn.
+This project trains and compares multiple ML algorithms on the **Retail stock data** using Python and scikit‑learn.
 
 
 ## Setup (VS Code)
@@ -11,7 +11,7 @@ source .venv/bin/activate # Windows: .venv\\Scripts\\activate
 pip install -r requirements.txt
 
 ## End to End Flow
-Load California Housing data
+Load Retail Stock Data
         ↓
 Preprocess features (impute + scale)
         ↓
@@ -24,7 +24,7 @@ Compare RMSE scores
 Save best model + metrics locally
 
 ## Repository Structure
-california-housing-ml/
+retail-stock-demand-forecast-ml/
 │
 ├── README.md          → How to run the project
 ├── requirements.txt   → Python libraries needed
