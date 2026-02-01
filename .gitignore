@@ -1,0 +1,38 @@
+# Python (global)
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+**/venv/
+**/.venv/
+**/env/
+
+# Environment files
+**/.env
+
+# Data
+**/data/raw/*
+**/data/processed/*
+**/data/interim/*
+
+# Models / artifacts
+**/models/*
+**/artifacts/*
+**/mlruns/*
+
+# Logs
+**/logs/
+**/*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+#results
+**/results/
